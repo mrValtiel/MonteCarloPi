@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Projekt na fizykę</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="inputSection">
+            <p>Wprowadź liczbę powtórzeń:</p>
+            <input type="text" id="numOfTrials" value="10000">
+            <button type="submit" id="btnStart">Wygeneruj</button>
+        </div>
+        <canvas id="mainCanvas" width="600px" height="600px"></canvas>
+        <div class="results">
+            Wszystkich punktów: <span id="totalPoints">0</span><br />
+            Punktów w kole: <span id="pointsInCircle">0</span><br />
+            Przybliżenie liczby PI = <span id="approxPi">0</span><br />
+        </div>
+    </div>
+    <div class="footer">
+        <div id="author">Marek Garniec</div>
+        <div id="time">//actual time</div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="clock.js"></script>
+</html>

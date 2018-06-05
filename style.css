@@ -1,0 +1,50 @@
+body {
+    background-color: #5c95d6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    min-width: 600px;
+}
+
+.mainDiv {
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    background-color: #3c3c3c;
+    border: 5px solid black;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.inputSection {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #5d5d5d;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#mainCanvas {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.results {
+    padding: 10px;
+    margin: auto;
+    background-color: #5d5d5d;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+    width: 700px;
+    text-align: center;
+    background-color: #5d5d5d;
+    border: 2px solid black;
+    border-radius: 10px;
+}
